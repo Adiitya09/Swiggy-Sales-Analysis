@@ -1,0 +1,15 @@
+# Excel temporary and lock files
+~$*.xlsx
+~$*.xls
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE / Editors
+.vscode/
+.idea/
+*.tmp
