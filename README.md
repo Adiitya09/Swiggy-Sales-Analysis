@@ -1,10 +1,11 @@
 # 🍔 Swiggy Sales & Performance Analysis
 
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/excel)
 
-An end-to-end data analytics project examining Swiggy's sales, customer ratings, order trends, food preferences, and geographic performance across Indian states and cities. This project integrates **Excel data cleaning**, **SQL querying & exploratory analysis**, and an interactive **Power BI Dashboard**.
+An end-to-end data analytics project examining Swiggy's sales, customer ratings, order trends, food preferences, and geographic performance across Indian states and cities. This project integrates **Python data analysis & visualization**, **Excel data cleaning**, **SQL querying & exploratory analysis**, and an interactive **Power BI Dashboard**.
 
 ---
 
@@ -45,9 +46,9 @@ An end-to-end data analytics project examining Swiggy's sales, customer ratings,
 
 ## 🛠️ Tech Stack & Tools
 
-- **Data Cleaning & Preprocessing:** Microsoft Excel (handling nulls, deduplication, formatting)
+- **Data Cleaning & Preprocessing:** Python (Pandas, NumPy), Microsoft Excel
+- **Data Visualization & Analysis:** Python (Matplotlib, Seaborn), Microsoft Power BI (`.pbix`)
 - **Database & Querying:** MySQL / SQL (ranking window functions, CTEs, aggregation, group by metrics)
-- **Data Visualization & Business Intelligence:** Microsoft Power BI (`.pbix`)
 - **Version Control:** Git & GitHub
 
 ---
@@ -63,6 +64,9 @@ Swiggy-Sales-Analysis/
 ├── Raw dataset/
 │   ├── swiggy_file.csv                  # Raw extracted dataset (CSV)
 │   └── swiggy_file.xlsx                 # Raw extracted dataset (Excel)
+├── Python/
+│   ├── Swiggy_Data_Preprocessing.ipynb  # Data cleaning, EDA & feature engineering
+│   └── Swiggy_Data_Visualization.ipynb  # Visual insights & exploratory plotting
 ├── SQL/
 │   ├── swiggy.sql                       # Complete SQL queries: KPIs, window functions, rankings
 │   ├── swiggy.csv                       # Database import export CSV
